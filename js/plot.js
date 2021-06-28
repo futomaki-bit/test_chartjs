@@ -12,4 +12,16 @@ var myChart = new Chart(ctx, {
 
         }]
     },
+    options: {
+        scales: {
+            y: {
+                ticks: {
+                    // Include a dollar sign in the ticks
+                    callback: function (value, index, values) {
+                        return value + " MB/S";
+                    }
+                }
+            }
+        }
+    }
 });
