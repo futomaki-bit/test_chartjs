@@ -1,3 +1,5 @@
+// https://www.chartjs.org/docs/latest/
+
 var ctx = document.getElementById('myChart');
 var myChart = new Chart(ctx, {
     type: 'bar',
@@ -12,6 +14,7 @@ var myChart = new Chart(ctx, {
 
         }]
     },
+    // https://www.chartjs.org/docs/latest/axes/labelling.html
     options: {
         scales: {
             y: {
