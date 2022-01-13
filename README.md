@@ -1,7 +1,7 @@
 # test_chartjs
 Testing chart.js
 
-[Link](https://futomakiyoin.github.io/test_chartjs/)
+[Link](https://futomaki-bit.github.io/test_chartjs/)
 
 **What is [Chart.js](https://www.chartjs.org/)?**
 
